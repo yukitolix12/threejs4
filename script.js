@@ -30,7 +30,7 @@ document.body.appendChild(renderer.domElement);
 const fontLoader = new FontLoader();
 fontLoader.load("./font/helvetiker_regular.typeface.json",
 function(font){
-    console.log(font)
+    console.log(font);
 });
 
 //Controls
