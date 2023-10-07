@@ -26,6 +26,9 @@ renderer.setSize(sizes.width, sizes.height);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 document.body.appendChild(renderer.domElement);
 
+//Fonts
+const fontLoader = new FontLoader();
+
 //Controls
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
