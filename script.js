@@ -28,7 +28,10 @@ document.body.appendChild(renderer.domElement);
 
 //Fonts
 const fontLoader = new FontLoader();
-fontLoader.load("./font/helvetiker_regular.typeface.json");
+fontLoader.load("./font/helvetiker_regular.typeface.json",
+function(load){
+    
+});
 
 //Controls
 const controls = new OrbitControls(camera, renderer.domElement);
