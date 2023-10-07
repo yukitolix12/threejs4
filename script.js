@@ -24,3 +24,7 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(sizes.width, sizes.height);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 document.body.appendChild(renderer.domElement);
+
+//Controls
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
