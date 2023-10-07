@@ -33,6 +33,7 @@ function(font){
     console.log(font);
 });
 
+
 //Controls
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
