@@ -28,7 +28,7 @@ document.body.appendChild(renderer.domElement);
 
 //Fonts
 const fontLoader = new FontLoader();
-fontLoader.load("./font/helvetiker_regular.typeface.json",
+fontLoader.load("./fonts/helvetiker_regular.typeface.json",
 function(font){
     console.log(font);
 });
