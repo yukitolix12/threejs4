@@ -28,3 +28,11 @@ document.body.appendChild(renderer.domElement);
 //Controls
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
+
+//Animate
+const animate = () => {
+    controls.update();
+
+    renderer.render(scene, camera);
+    window.requestAnimationFrame(animate);
+}
