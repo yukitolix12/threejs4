@@ -12,8 +12,8 @@ const sizes = {
 };
 
 //axes
-const axesHelper = new THREE.AxesHelper();
-scene.add(axesHelper);
+//const axesHelper = new THREE.AxesHelper(10);
+//scene.add(axesHelper);
 
 //camera
 const camera = new THREE.PerspectiveCamera(
@@ -47,7 +47,7 @@ function(font){
         bevelOffset: 0,
         bevelSegments: 4,
     });
-    //textGeometry.center();
+    textGeometry.center();
 
     //material
     const textMaterial = new THREE.MeshNormalMaterial();
