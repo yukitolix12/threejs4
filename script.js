@@ -48,6 +48,7 @@ function(font){
     const textMaterial = new THREE.MeshNormalMaterial();
     //mesh
     const text = new THREE.Mesh(textGeometry, textMaterial);
+    scene.add(text);
 });
 
 
