@@ -13,6 +13,7 @@ const sizes = {
 
 //axes
 const axesHelper = new THREE.AxesHelper();
+scene.add(axesHelper);
 
 //camera
 const camera = new THREE.PerspectiveCamera(
