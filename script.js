@@ -68,6 +68,10 @@ function(font){
         box.rotation.x = Math.random() * Math.PI;
         box.rotation.y = Math.random() * Math.PI;
 
+        box.scale.x = Math.random();
+        box.scale.y = Math.random();
+        box.scale.z = Math.random();
+
         scene.add(box);
     }
 });
