@@ -57,6 +57,10 @@ function(font){
 
     //boxgeometry
     const boxGeometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
+
+    for(let i = 0; i < 100; i++) {
+        
+    }
 });
 
 
