@@ -68,6 +68,7 @@ function(font){
         box.rotation.x = Math.random() * Math.PI;
         box.rotation.y = Math.random() * Math.PI;
 
+        const scale = Math.random();
         box.scale.x = Math.random();
         box.scale.y = Math.random();
         box.scale.z = Math.random();
