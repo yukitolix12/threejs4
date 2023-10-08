@@ -59,7 +59,7 @@ function(font){
     const boxGeometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
     const material = new THREE.MeshNormalMaterial();
     for(let i = 0; i < 100; i++) {
-
+        const box = new THREE.Mesh(boxGeometry, material);
     }
 });
 
