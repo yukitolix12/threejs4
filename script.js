@@ -31,6 +31,9 @@ const fontLoader = new FontLoader();
 fontLoader.load("./fonts/helvetiker_regular.typeface.json",
 function(font){
     console.log(font);
+    const textGeometry = new THREE.TextGeometry("Three.js is fun", {
+        
+    });
 });
 
 
