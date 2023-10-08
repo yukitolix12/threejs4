@@ -43,6 +43,9 @@ function(font){
         bevelOffset: 0,
         bevelSegments: 4,
     });
+
+    //material
+    const textMaterial = new THREE.MeshNormalMaterial();
 });
 
 
