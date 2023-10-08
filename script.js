@@ -65,6 +65,9 @@ function(font){
         box.position.y = (Math.random() - 0.5) * 10;
         box.position.z = (Math.random() - 0.5) * 10;
 
+        box.rotation.x = Math.random() * Math.PI;
+        box.rotation.y = Math.random() * Math.PI;
+
         scene.add(box);
     }
 });
