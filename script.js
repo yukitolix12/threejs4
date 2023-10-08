@@ -54,6 +54,9 @@ function(font){
     //mesh
     const text = new THREE.Mesh(textGeometry, textMaterial);
     scene.add(text);
+
+    //boxgeometry
+    const boxGeometry = new THREE.BoxGeometry(0.5, 0.5, 0.5);
 });
 
 
