@@ -60,6 +60,11 @@ function(font){
     const material = new THREE.MeshNormalMaterial();
     for(let i = 0; i < 100; i++) {
         const box = new THREE.Mesh(boxGeometry, material);
+
+        box.position.x = (Math.random() - 0.5) * 10;
+        box.position.y = (Math.random() - 0.5) * 10;
+        box.position.z = (Math.random() - 0.5) * 10;
+
         scene.add(box);
     }
 });
