@@ -43,6 +43,7 @@ function(font){
         bevelOffset: 0,
         bevelSegments: 4,
     });
+    textGeometry.center();
 
     //material
     const textMaterial = new THREE.MeshNormalMaterial();
