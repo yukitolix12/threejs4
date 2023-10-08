@@ -60,6 +60,7 @@ function(font){
     const material = new THREE.MeshNormalMaterial();
     for(let i = 0; i < 100; i++) {
         const box = new THREE.Mesh(boxGeometry, material);
+        scene.add(box);
     }
 });
 
