@@ -1,6 +1,7 @@
 import * as THREE from "./build/three.module.js";
 import { OrbitControls } from "./controls/OrbitControls.js";
 import { FontLoader } from "./loaders/FontLoader.js";
+import { TextGeometry } from "./build/three.module.js";
 
 //Scene
 const scene = new THREE.Scene();
@@ -31,8 +32,8 @@ const fontLoader = new FontLoader();
 fontLoader.load("./fonts/helvetiker_regular.typeface.json",
 function(font){
     console.log(font);
-    const textGeometry = new THREE.TextGeometry("Three.js is fun", {
-        
+    const textGeometry = new TextGeometry("Three.js is fun", {
+        font: font,  
     });
 });
 
